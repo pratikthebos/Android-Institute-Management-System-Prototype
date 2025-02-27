@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@drawable/bg"
+    tools:context=".activity.Menu_activicty">
+
+
+    <group
+        android:background="@drawable/bg"
+        android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/StudyMaterial"
+            android:icon="@drawable/study"
+            android:title="Study Material"/>
+        <item
+            android:id="@+id/EventNotification"
+            android:icon="@drawable/eventicon"
+            android:title="Events and notification"/>
+        <item
+            android:id="@+id/CheckAtten"
+            android:icon="@drawable/attendanceicon"
+            android:title="check Attendance"/>
+        <item
+            android:id="@+id/CourseRegistration"
+            android:icon="@drawable/courseicon"
+            android:title="Course registration"/>
+        <item
+            android:id="@+id/FeePayment"
+            android:icon="@drawable/feeicon"
+            android:title="Fee Payment"/>
+        <item
+            android:id="@+id/Assignment_sub"
+            android:icon="@drawable/assignmenticon"
+            android:title="Assignment submission"/>
+        <item
+
+            android:id="@+id/EditPerson"
+            android:icon="@drawable/editicon"
+            android:title="Edit person information"/>
+        <item
+            android:id="@+id/DownloadFee"
+            android:icon="@drawable/downloadicon"
+            android:title="Download Fee recipt"/>
+
+        <item
+            android:icon="@drawable/logouticon"
+            android:id="@+id/LogOut"
+            android:title="Log Out"/>
+    </group>
+
+
+</menu>
