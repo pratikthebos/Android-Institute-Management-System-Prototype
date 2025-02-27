@@ -30,14 +30,7 @@ public class EditPerson_Fragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment EditPerson_Fragment.
-     */
+   
     // TODO: Rename and change types and number of parameters
     public static EditPerson_Fragment newInstance(String param1, String param2) {
         EditPerson_Fragment fragment = new EditPerson_Fragment();
