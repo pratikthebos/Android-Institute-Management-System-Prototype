@@ -30,7 +30,7 @@ public class EditPerson_Fragment extends Fragment {
         // Required empty public constructor
     }
 
-   
+
     // TODO: Rename and change types and number of parameters
     public static EditPerson_Fragment newInstance(String param1, String param2) {
         EditPerson_Fragment fragment = new EditPerson_Fragment();
